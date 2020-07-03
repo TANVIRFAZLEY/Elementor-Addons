@@ -1,0 +1,48 @@
+.sermon-metabox-fields {
+    padding-top: 35px;
+}
+
+.field_section {
+    margin-bottom: 40px;
+}
+
+.sermon_label {
+    width: 15%;
+    float: left;
+}
+
+.sermon_label label {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.sermon_input {
+    width: 85%;
+    float: left;
+}
+
+.sermon_input input {
+    height: 30px;
+}
+
+.float_clear {
+    clear: both;
+}
+
+#sermon_media_metabox h2.hndle {
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.sermon_input button {
+    height: 30px;
+    background: #0070a7 !important;
+    color: #ffffff !important;
+    font-weight: bold;
+    border-color: #0070a7;
+}
+
+#pdf-container,
+#audio-container {
+    margin-top: 20px;
+}
