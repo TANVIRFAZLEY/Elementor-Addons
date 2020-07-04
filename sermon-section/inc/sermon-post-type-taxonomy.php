@@ -68,9 +68,11 @@ function sermon_custom_taxonomy() {
     ) );
 }
 add_action( 'init', 'sermon_custom_taxonomy' );
+
 //permalink flush
 register_activation_hook( __FILE__, 'sermon_rewrite_flush' );
 function sermon_rewrite_flush() {
     cptui_register_my_cpts_sermon();
+    sermon_custom_taxonomy();
     flush_rewrite_rules();
 }
